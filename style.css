@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sb;
+    src: url(./static/Poppins-SemiBold.ttf);
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+main {
+    font-family: sb;
+}
+
+.first-main {
+    background: url(./Banner\ Background.png);
+    background-repeat: no-repeat;
+    background-position: 110%  -100%;
+    text-transform: capitalize;
+}
+
+.second-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.third-main h2{
+ text-transform: uppercase;
+ color: #fe9e0d;
+ padding-left: 70%;
+}
+
+.fourth-main ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 360px;
+}
+
+ ul li {
+    list-style-type: none;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+    justify-content: space-around;
+    padding-right: 17px;
+    font-size: 15px;
+}
+
+li a img {
+    height: 4vh;
+}
+
+li button a {
+    font-family: sb;
+    color: inherit;
+    font-size: 11px;
+}
+
+li button {
+    padding: 10px 20px;
+    border: 5px;
+    border-radius: 20px;
+    
+}
+
+.fifth-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sixth-main {
+    margin-top: 25%;
+    margin-left: 5%;
+
+}
+
+.sixth-main h2 {
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 34px;
+}
+
+.sixth-main p {
+    font-family: sb;
+    font-size: 14px;
+    padding-top: 10%;
+    color: gray;
+}
+
+.sixth-main button{
+    background-color: #fe9e0d;
+    padding: 4% 8%;
+    border: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 10%;
+}
+
+.seventh-main img{
+    height: 60%;
+    padding-left: 20%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+button img {
+    height: 12px;
+    padding-left: 10px;
+}
+
+
+
+.eighth-main {
+    display: flex;
+    padding-top: 10%;
+    background: url(./About\ Section\ Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nineth-main img{
+    height: 80%;
+}
+
+.tenth-main h6{ 
+    color: #fe9e0d;
+    text-transform: capitalize;
+    font-family: sb;
+}
+
+.tenth-main h2 {
+    font-family: sb;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.tenth-main p {
+    text-transform: capitalize;
+    font-family: sb;
+    color: gray;
+    font-size: 12px;
+    padding-top: 5%;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.alright button {
+    background-color: #fe9e0d;
+    padding: 8% 10%;
+    border: 5px;
+    border-radius: 20px ;
+    font-family: sb;
+    width: 10vw;
+}
+
+.symbol img {
+    height: 7vh;
+}
+
+.more {
+    display: flex;
+    margin-right: 20%;
+}
+
+.watch {
+    font-size: 12px;
+    text-transform: capitalize;
+    text-align: center;
+    padding:15px 0 0 2px;
+    color: gray;
+    font-family: sb;
+}
+
+
+
+.eleventh-main {
+    text-align: center;
+    font-family: sb;
+}
+
+.eleventh-main h6{
+    color: #fe9e0d;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.eleventh-main h2{
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 30px;
+}
+
+.eleventh-main p{
+    font-size: 14px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.twelveth-main {
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+    font-family: sb;
+}
+
+.thirteenth-main,
+.fifteenth-main,
+.seventeenth-main{
+    background-color: white;
+    padding: 2% 0;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.thirteenth-main {
+    margin-right: 5%;
+}
+
+.seventeenth-main {
+    margin-left: 5%;
+}
+
+.fourteenth-main img,
+.sixteenth-main img,
+.eighteenth-main img{
+ height: 10vh;
+ margin-bottom: 5%;
+}
+
+.thirteenth-main h4,
+.fifteenth-main h4,
+.seventeenth-main h4 {
+    text-transform: capitalize;
+    padding-top: 5%;
+    font-family: sb;
+    font-size: 18px;
+}
+
+.thirteenth-main p,
+.fifteenth-main p,
+.seventeenth-main p {
+    font-size: 11px;
+    padding-top: 10%;
+}
+
+.nineteenth-main {
+    text-align: center;
+    margin-top: 12%;
+    font-family: sb;
+}
+
+.nineteenth-main h6 {
+    color: #fe9e0d;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.nineteenth-main h1{
+    text-transform: capitalize;
+    padding-top: 8px;
+    font-size: 32px;
+}
+
+.nineteenth-main p{
+    padding-top: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+.twenty-main {
+    margin: 5% 30%;
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px 0 25px 0;
+    background-color: white;
+}
+
+.twentyone-main img {
+    height: 10vh;
+}
+
+.twenty-main p {
+    padding: 0 0 15px 0;
+}
+
+.twentytwo-main img {
+    height: 3vh;
+}
+
+.twenty-main h6 {
+    color: inherit;
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-family: sb;
+    font-size: 15px;
+}
+
+.twentythree-main {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sb;
+    font-size: 15px;
+}
+
+.twentyfour-main {
+    margin: 3% 32% 0;
+    border: 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.your input {
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    margin-right: 150px;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    font-family: sb;
+}
+
+.submit button {
+    padding: 10px 40px;
+    border: 5px;
+    border-radius: 15px;
+    background-color: #fe9e0d;
+    font-family: sb;
+    text-transform: capitalize;
+}
+
+.twentyfive-main {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin-top: 7%;
+    font-family: sb;
+    padding-bottom: 7%;
+}
+
+.twentysix-main h3 {
+    text-transform: uppercase;
+}
+
+.twentyseven-main img {
+    height: 5vh;
+    margin-top: 15%;
+}
+
+.twentyeight-main,
+.twentynine-main,
+.thirty-main {
+    text-transform: capitalize;
+}
+
+.twentysix-main {
+    padding-left: 20%;
+}
+.thirty-main {
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 950px) {
+    
+    
+    @font-face {
+        font-family: sb;
+        src: url(./static/Poppins-SemiBold.ttf);
+    }
+    
+    body {
+        background-color: #f6f6f6;
+    }
+    
+    main {
+        font-family: sb;
+    }
+    
+    .first-main {
+        background: url(./Banner\ Background.png);
+        background-repeat: no-repeat;
+        background-position: -40% 0;
+        text-transform: capitalize;
+    }
+    
+    
+    .second-main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+    
+    .third-main h2{
+     text-transform: uppercase;
+     color: #fe9e0d;
+     padding-left: 25px;
+    }
+    
+    .fourth-main ul {
+        display: none;
+        
+    }
+    
+     ul li {
+        list-style-type: none;
+    }
+    
+    
+    .fifth-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sixth-main {
+        margin-top: 20%;
+        
+    
+    }
+    
+    .sixth-main h2 {
+        text-transform: capitalize;
+        font-family: sb;
+        font-size: 25px;
+    }
+    
+    .sixth-main p {
+        font-family: sb;
+        font-size: 12px;
+        padding-top: 5%;
+        color: gray;
+    }
+    
+    .sixth-main button{
+        background-color: #fe9e0d;
+        padding: 2% 4%;
+        border: 5px;
+        border-radius: 20px;
+        font-size: 11px;
+        margin-top: 5%;
+    }
+    
+    button a {
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+    }
+    button img {
+        height: 8px;
+        padding-left: 5px;
+    }
+    
+    .seventh-main img{
+       height: 100%;
+       width: 100%;
+       padding:0 0 20% 0;
+       
+    }
+    
+    .eighth-main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        background: url(./About\ Section\ Background.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+    }
+    
+    .nineth-main img{
+        height: 70%;
+        width: 70%;
+    }
+
+    .tenth-main {
+        padding-top: 10px;
+        margin:0 5% 0;
+    }
+    
+    .tenth-main h6{ 
+        color: #fe9e0d;
+        text-transform: capitalize;
+        font-family: sb;
+        text-align: center;
+    }
+    
+    .tenth-main h2 {
+        font-family: sb;
+        text-transform: capitalize;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .tenth-main p {
+        text-transform: capitalize;
+        font-family: sb;
+        color: gray;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    
+    .learn {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+    
+    .alright button {
+        background-color: #fe9e0d;
+        padding: 6% 8%;
+        font-size: 10px;
+        border: 5px;
+        border-radius: 10px ;
+        font-family: sb;
+        width: 20vw;
+    }
+    
+    .symbol img {
+        height: 5vh;
+    }
+    
+    .more {
+        display: flex;
+        
+    }
+    
+    .watch {
+        font-size: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        padding:10px 0 0 2px;
+        color: gray;
+        font-family: sb;
+    }
+    
+    
+    
+    .eleventh-main {
+        text-align: center;
+        font-family: sb;
+        margin-top: 5%;
+    }
+    
+    .eleventh-main h6{
+        color: #fe9e0d;
+        text-transform: capitalize;
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    
+    .eleventh-main h2{
+        text-transform: capitalize;
+        font-family: sb;
+        font-size: 20px;
+    }
+    
+    .eleventh-main p{
+        font-size: 10px;
+        color: gray;
+        padding-top: 5px;
+    }
+    
+    .twelveth-main {
+        display: flex;
+        margin-top: 6%;
+        justify-content: center;
+        font-family: sb;
+        flex-direction: column;
+    }
+    
+    .thirteenth-main,
+    .fifteenth-main,
+    .seventeenth-main{
+        background-color: white;
+        padding: 4% 0;
+        border: 5px;
+        border-radius: 10px;
+        margin: 5%;
+    }
+    
+    .fourteenth-main img,
+    .sixteenth-main img,
+    .eighteenth-main img{
+     height: 10vh;
+    }
+    
+    .thirteenth-main h4,
+    .fifteenth-main h4,
+    .seventeenth-main h4 {
+        text-transform: capitalize;
+        font-family: sb;
+        font-size: 16px;
+    }
+    
+    .thirteenth-main p,
+    .fifteenth-main p,
+    .seventeenth-main p {
+        font-size: 10px;
+        padding-top: 5%;
+    }
+    
+    .nineteenth-main {
+        text-align: center;
+        margin-top: 2%;
+        font-family: sb;
+    }
+    
+    .nineteenth-main h6 {
+        color: #fe9e0d;
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+    
+    .nineteenth-main h1{
+        text-transform: capitalize;
+        padding-top: 6px;
+        font-size: 15px;
+    }
+    
+    .nineteenth-main p{
+        padding-top: 5px;
+        color: gray;
+        font-size: 11px;
+    }
+    
+    .twenty-main {
+        margin: 5% 30%;
+        border: 5px;
+        border-radius: 10px;
+        padding: 5px 0 25px 0;
+        background-color: white;
+    }
+    
+    .twentyone-main img {
+        height: 10vh;
+    }
+    
+    .twenty-main p {
+        padding: 0 0 15px 0;
+        font-size: 10px;
+    }
+    
+    .twentytwo-main img {
+        height: 3vh;
+    }
+    
+    .twenty-main h6 {
+        color: inherit;
+        text-transform: capitalize;
+        padding-top: 10px;
+        font-family: sb;
+        font-size: 15px;
+    }
+    
+    .twentythree-main {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: sb;
+        font-size: 10px;
+    }
+    
+    .twentyfour-main {
+        margin: 3% 5% 0;
+        border: 5px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 15px 0;
+    }
+    
+    .your input {
+        border: none;
+        background-color: white;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+    
+    input[type="email"] {
+        font-size: 10px;
+        font-family: sb;
+    }
+    
+    .submit button {
+        padding: 4px 20px;
+        border: 5px;
+        border-radius: 15px;
+        background-color: #fe9e0d;
+        font-family: sb;
+        text-transform: capitalize;
+    }
+    
+    .twentyfive-main {
+        flex-direction: column-reverse;
+        display: flex;
+        text-align: left;
+        margin: 7% 0 0 20%;
+        font-family: sb;
+        padding-bottom: 7%;
+        font-size: 14px;
+    }
+    
+    .twentysix-main h3 {
+        margin-top: 5% ;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    .twentyseven-main img {
+        height: 5vh;
+        margin-top: 10%;
+        align-items: center;
+    }
+    
+    .twentyeight-main,
+    .twentynine-main,
+    .thirty-main {
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    .twentysix-main {
+        padding-left: 20%;
+    }
+    .thirty-main {
+        padding-right: 20%;
+    }
+
+}
