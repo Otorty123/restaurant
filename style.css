@@ -106,6 +106,7 @@ li button {
     border-radius: 20px;
     font-size: 13px;
     margin-top: 10%;
+    text-transform: capitalize;
 }
 
 .seventh-main img{
@@ -231,6 +232,7 @@ button img {
     padding: 2% 0;
     border: 5px;
     border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .thirteenth-main {
@@ -294,6 +296,7 @@ button img {
     border-radius: 10px;
     padding: 5px 0 25px 0;
     background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .twentyone-main img {
@@ -490,8 +493,8 @@ input[type="email"] {
     }
     
     .nineth-main img{
-        height: 70%;
-        width: 70%;
+        height: 90%;
+        width: 90%;
     }
 
     .tenth-main {
@@ -599,6 +602,7 @@ input[type="email"] {
         border: 5px;
         border-radius: 10px;
         margin: 5%;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
     
     .fourteenth-main img,
@@ -647,11 +651,13 @@ input[type="email"] {
     }
     
     .twenty-main {
-        margin: 5% 30%;
+        margin: 5% 5%;
+        width: 90%;
         border: 5px;
         border-radius: 10px;
         padding: 5px 10px 25px 10px;
         background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
     
     .twentyone-main img {
