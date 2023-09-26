@@ -350,6 +350,7 @@ input[type="email"] {
     background-color: #fe9e0d;
     font-family: sb;
     text-transform: capitalize;
+    color: white;
 }
 
 .twentyfive-main {
@@ -449,7 +450,7 @@ input[type="email"] {
     
     .sixth-main p {
         font-family: sb;
-        font-size: 12px;
+        font-size: 10px;
         padding-top: 5%;
         color: gray;
     }
@@ -649,16 +650,17 @@ input[type="email"] {
         margin: 5% 30%;
         border: 5px;
         border-radius: 10px;
-        padding: 5px 0 25px 0;
+        padding: 5px 10px 25px 10px;
         background-color: white;
     }
     
     .twentyone-main img {
         height: 10vh;
+    
     }
     
     .twenty-main p {
-        padding: 0 0 15px 0;
+        padding: 0 10px 15px 10px;
         font-size: 10px;
     }
     
@@ -713,13 +715,13 @@ input[type="email"] {
     }
     
     .twentyfive-main {
-        flex-direction: column-reverse;
+        flex-direction: row;
         display: flex;
         text-align: left;
-        margin: 7% 0 0 20%;
+        margin: 7% 0 0  5%;
         font-family: sb;
         padding-bottom: 7%;
-        font-size: 14px;
+        font-size: 11px;
     }
     
     .twentysix-main h3 {
@@ -729,7 +731,7 @@ input[type="email"] {
     }
     
     .twentyseven-main img {
-        height: 5vh;
+        height: 4vh;
         margin-top: 10%;
         align-items: center;
     }
@@ -738,15 +740,17 @@ input[type="email"] {
     .twentynine-main,
     .thirty-main {
         text-transform: capitalize;
-        text-align: center;
+        text-align:  left;
         margin-top: 5%;
     }
     
     .twentysix-main {
-        padding-left: 20%;
+        padding-left: 5%;
+        margin-right: 5%;
     }
     .thirty-main {
-        padding-right: 20%;
+        padding-right: 5%;
+        margin-left: 5%;
     }
 
 }
